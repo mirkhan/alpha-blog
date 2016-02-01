@@ -39,8 +39,7 @@ end
   end
   
   def destroy
-  
-   @article.destroy
+  @article.destroy
    flash[:danger] = "Article was successfully deleted"
    redirect_to articles_path
   end
